@@ -1,4 +1,4 @@
-# RxAndroid: Reactive Extensions for Android
+# ReactorAndroid: Reactive Extensions for Android
 
 Android specific bindings for [RxJava 3](http://github.com/ReactiveX/RxJava).
 
@@ -9,7 +9,7 @@ the main thread or any given `Looper`.
 
 ## Communication
 
-Since RxAndroid is part of the RxJava family the communication channels are similar:
+Since ReactorAndroid is part of the RxJava family the communication channels are similar:
 
 - Google Group: [RxJava][list]
 - Twitter: [@RxJava][twitter]
@@ -27,15 +27,15 @@ allprojects {
 }
 
 dependencies {
-    implementation 'io.reactivex.rxjava3:rxandroid:3.0.0'
-    // Because RxAndroid releases are few and far between, it is recommended you also
+    implementation 'io.reactivex.rxjava3:reactorandroid:3.0.0'
+    // Because ReactorAndroid releases are few and far between, it is recommended you also
     // explicitly depend on RxJava's latest version for bug fixes and new features.
     // (see https://github.com/ReactiveX/RxJava/releases for latest 3.x.x version)
-    implementation 'io.reactivex.rxjava3:rxjava:3.0.0'
+    implementation 'io.projectreactor.reactor-core:3.4.6'
 }
 ```
 
-* RxAndroid: <a href='http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.reactivex.rxjava3%22%20a%3A%22rxandroid%22'><img src='http://img.shields.io/maven-central/v/io.reactivex.rxjava3/rxandroid.svg'></a>
+* ReactorAndroid: <a href='http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.reactivex.rxjava3%22%20a%3A%22rxandroid%22'><img src='http://img.shields.io/maven-central/v/io.reactivex.rxjava3/reactorandroid.svg'></a>
 * RxJava: <a href='http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.reactivex.rxjava3%22%20a%3A%22rxjava%22'><img src='http://img.shields.io/maven-central/v/io.reactivex.rxjava3/rxjava.svg'></a>
 
 Additional binaries and dependency information for can be found at [search.maven.org](http://search.maven.org/#search%7Cga%7C1%7Cg%3A%22io.reactivex.rxjava3%22%20a%3A%22rxandroid%22).
@@ -46,14 +46,14 @@ Additional binaries and dependency information for can be found at [search.maven
 To build:
 
 ```bash
-$ git clone git@github.com:ReactiveX/RxAndroid.git
-$ cd RxAndroid/
+$ git clone git@github.com:ReactiveX/ReactorAndroid.git
+$ cd ReactorAndroid/
 $ ./gradlew build
 ```
 
 Further details on building can be found on the RxJava [Getting Started][start] page of the wiki.
 
-<a href='https://travis-ci.org/ReactiveX/RxAndroid/builds'><img src='https://api.travis-ci.org/ReactiveX/RxAndroid.svg?branch=3.x'></a>
+<a href='https://travis-ci.org/ReactiveX/ReactorAndroid/builds'><img src='https://api.travis-ci.org/ReactiveX/ReactorAndroid.svg?branch=3.x'></a>
 
 # Sample usage
 
@@ -100,7 +100,7 @@ For general usage questions please use the [mailing list][list] or [StackOverflo
 
 ## LICENSE
 
-    Copyright 2015 The RxAndroid authors
+    Copyright 2015 The ReactorAndroid authors
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -119,5 +119,5 @@ For general usage questions please use the [mailing list][list] or [StackOverflo
  [list]: http://groups.google.com/d/forum/rxjava
  [so]: http://stackoverflow.com/questions/tagged/rx-android
  [twitter]: http://twitter.com/RxJava
- [issues]: https://github.com/ReactiveX/RxAndroid/issues
+ [issues]: https://github.com/ReactiveX/ReactorAndroid/issues
  [start]: https://github.com/ReactiveX/RxJava/wiki/Getting-Started

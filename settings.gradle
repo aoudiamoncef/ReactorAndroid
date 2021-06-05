@@ -1,4 +1,4 @@
-rootProject.name='rxandroid-root'
+rootProject.name='reactorandroid-root'
 
-include ':rxandroid'
+include ':reactorandroid'
 include ':sample-app'
